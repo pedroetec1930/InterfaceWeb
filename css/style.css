@@ -5,3 +5,38 @@ h1{
    color:aliceblue;
    text-align:center 
 }
+header{
+   width: 100;
+   background-color: aqua;
+}
+.logo{
+   color: black;
+   text-align: center;
+   font-size: 1.4em;
+}
+
+nav{
+
+   text-align: right;
+   font-size: 1.4em;
+
+}
+
+.banner{
+   width: 100%;
+
+}
+
+.container{
+   background-color: red;
+   width: 80%;
+   margin: auto;
+}
+
+footer{
+
+   background-color: royalblue;
+   width: 80%;
+   margin: auto;
+
+}
