@@ -1,18 +1,21 @@
 body{
-background-color:indigo;
+background-color:aliceblue;
 }
 h1{
-   color:aliceblue;
+   color:red;
    text-align:center 
 }
 header{
    width: 100;
-   background-color: aqua;
+   background-color: black;
+   color: red;
 }
+
 .logo{
-   color: black;
+   color: red;
    text-align: center;
    font-size: 1.4em;
+   
 }
 
 nav{
@@ -28,10 +31,13 @@ nav{
 }
 
 .container{
-   background-color: red;
+   background-color: black;
+   color:red;
    width: 80%;
    margin: auto;
 }
+
+
 
 footer{
 
