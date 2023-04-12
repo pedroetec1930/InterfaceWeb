@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+}
+
+header{
+    background-color: yellow;
+}
+
+.banner{
+    width: 100%;
+    
+}
+
+.container{
+    background-color: lightblue;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: white;
+}
