@@ -1,48 +1,51 @@
 body{
-background-color:aliceblue;
-}
-h1{
-   color:red;
-   text-align:center 
-}
-header{
-   width: 100;
-   background-color: black;
-   color: red;
-}
-
-.logo{
-   color: red;
-   text-align: center;
-   font-size: 1.4em;
+   background-image: url(../img/foto.jpg);
+   }
+   h1{
+      color:red;
+      text-align:center 
+   }
+   header{
+      width: 100;
+      background-color: black;
+      color: red;
+   }
    
-}
-
-nav{
-
-   text-align: right;
-   font-size: 1.4em;
-
-}
-
-.banner{
-   width: 100%;
-
-}
-
-.container{
-   background-color: black;
-   color:red;
-   width: 80%;
-   margin: auto;
-}
-
-
-
-footer{
-
-   background-color: royalblue;
-   width: 80%;
-   margin: auto;
-
-}
+   .logo{
+      color: red;
+      text-align: center;
+      font-size: 1.4em;
+      
+   }
+   
+   nav{
+   
+      text-align: right;
+      font-size: 1.4em;
+   
+   }
+   
+   .banner{
+      width: 100%;
+   
+   }
+   
+   .container{
+      background-color: black;
+      color:red;
+      width: 80%;
+      margin: auto;
+   }
+   
+   .historia, .torcida{
+      text-align: center; 
+   }
+   
+   
+   footer{
+   
+      background-color: royalblue;
+      width: 80%;
+      margin: auto;
+   
+   }
