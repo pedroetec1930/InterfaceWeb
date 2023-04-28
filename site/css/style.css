@@ -1,23 +1,28 @@
 body{
   background-image: url(../img/fundo.jpg);
   background-attachment: fixed;
-
+  font-family: 'Oswald', sans-serif;
 }
 
 header{
-  width 100;
+  width 100%;
   background-color: black;
-  color: red
+  color: red;
+  margin-bottom: 10%;
+ 
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
 
 p, li{
-  padding: 2em;
+
+  font-size: 1.2em;
+  text-align: justify;
+  
 }
 
 .logo{
@@ -47,7 +52,7 @@ nav{
 
 .curiosidades{
   background-color: white;
-  color: black;
+  color: black; 
 }
 
 
@@ -84,4 +89,5 @@ footer{
 .jogos, .titulos, .curiosidades{
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 1%;
 }
