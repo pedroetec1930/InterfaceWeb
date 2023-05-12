@@ -2,6 +2,7 @@ body{
   background-image: url(../img/fundo.jpg);
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
+  line-height: 1.5
 }
 
 header{
@@ -18,11 +19,9 @@ h2 {
   text-align: center;
 }
 
-p, li{
-
+p{
   font-size: 1.2em;
   text-align: justify;
-  
 }
 
 .logo{
@@ -31,7 +30,7 @@ p, li{
 }
 
 nav{
-  text-align: right;
+  text-align: center;
   font-size: 1.4em;
 }
 
@@ -45,23 +44,23 @@ nav{
   margin: auto;
 
 }
-.titulos{
+#titulos{
   background-color: red;
   color: black;
 }
 
-.curiosidades{
+#curiosidades{
   background-color: white;
   color: black; 
 }
 
 
-.jogos{
+#jogos{
   background-color: black;
   color: white;
 }
 
-.elenco{
+#elenco{
   color: black;
   background-color: red;
 }
@@ -86,8 +85,12 @@ footer{
       margin: auto;
 }
 
-.jogos, .titulos, .curiosidades{
+#jogos, #titulos, #curiosidades{
   margin-top: 10%;
   margin-bottom: 10%;
   padding: 1%;
+}
+
+#git{
+  width: Pedrao de ;
 }
