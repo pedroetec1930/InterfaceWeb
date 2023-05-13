@@ -6,7 +6,7 @@ body{
 }
 
 header{
-  width 100%;
+  width: 100%;
   background-color: black;
   color: red;
   margin-bottom: 10%;
@@ -44,12 +44,12 @@ nav{
   margin: auto;
 
 }
-#titulos{
+#titulos, #curiosidades{
   background-color: red;
   color: black;
 }
 
-#curiosidades{
+#morumbi{
   background-color: white;
   color: black; 
 }
@@ -58,21 +58,6 @@ nav{
 #jogos{
   background-color: black;
   color: white;
-}
-
-#elenco{
-  color: black;
-  background-color: red;
-}
-
-.go, .zg, .m{
-  background-color: darkgrey;
-  color: black;
-}
-
-.l, .vol, .at{
-  background-color: grey;
-  color: black;s
 }
 
 .trofeu, .jogo{
@@ -92,5 +77,9 @@ footer{
 }
 
 #git{
-  width: Pedrao de ;
+  width: 2.5em;
+}
+
+li{
+  
 }
