@@ -84,6 +84,13 @@ footer{
   width: 2.5em;
 }
 
-li{
-  
+
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.col-6{
+  width: 50%;
 }
