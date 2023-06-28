@@ -5,6 +5,8 @@ html{
 body{
   background-image: url(../img/fundo.jpg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Oswald', sans-serif;
   line-height: 1.5
 }
@@ -15,6 +17,11 @@ header{
   color: red;
   margin-bottom: 10%;
  
+}
+
+.ind{
+  width: 10em;
+  padding: 1em;
 }
 
 h2 {
@@ -67,6 +74,7 @@ nav{
   border-width: 20px;
 }
 
+
 #curiosidades{
   background-image: linear-gradient(red, grey);
   box-shadow: 15px 15px 15px 2px white;
@@ -95,7 +103,6 @@ footer{
   width: 2.5em;
 }
 
-
 .linha{
   display: flex;
   flex-flow: row wrap;
@@ -119,6 +126,12 @@ footer{
   
 }
 
+.listatitulos{
+  list-style-type: circle;
+  padding: 1.2em;
+  margin-left: 1.2em;
+}
+
 .card{
   background-image: linear-gradient(to right, red , gray);
   width: 90%;
@@ -127,6 +140,16 @@ footer{
   border-style: double;
   border-color: #696969;
   border-width: 10px;
+}
+
+@media (max-width: 800px) {
+  .linha {
+    flex-direction: column;
+  }
+
+  .col-6 {
+      width: 100%;
+  }
 }
 
 footer{

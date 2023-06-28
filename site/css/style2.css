@@ -56,6 +56,12 @@ html{
     border-color: black;
   
   }
+
+  .ind{
+    width: 10em;
+    padding: 1em;
+  }
+  
   
   #jogos{
     background-color: black;
