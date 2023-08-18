@@ -1,0 +1,44 @@
+header{
+    position: fixed;
+    top: 0%;
+    border: 10px solid green;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    border: 3px solid green;
+    background-color: white;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+    .sticky{
+        position: -webkit-sticky;
+        position:sticky;
+        border: 3px solid gold;
+        background-color: white;
+        bottom: 10%;
+        text-align: center;
+    }
+.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 6px solid red;
+
+}
+
+.absolute{
+    position: absolute;
+    border: 6px solid blue;
+    margin-left: 90px;
+
+}
+
+.yugioh{
+    width: 80%;
+
+}
