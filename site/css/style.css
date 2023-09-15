@@ -16,7 +16,16 @@ header{
   background-color: black;
   color: red;
   margin-bottom: 10%;
- 
+  padding-bottom: 5%;
+}
+
+.menu a:hover {
+  color: #fff;
+  padding: 0.8%;    
+  background-color: rgba(128, 128, 128, 0.3); 
+  text-decoration: none;
+  border-radius: 15%;
+
 }
 
 .ind{
@@ -55,13 +64,24 @@ nav{
   margin: auto;
 
 }
+
+.form{
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10%;
+  border-style: double;
+  border-width: 25px;
+  border-color: black;
+}
+
 #titulos{
   background-color: red;
   color: black;
   box-shadow: 15px 15px 15px 2px white;
   border-style: double;
   border-width: 25px;
-  border-color: black;
+  border-color: black
 
 }
 
