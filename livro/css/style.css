@@ -2,8 +2,10 @@ form{
   width: 50%;  
 }
 
-#tit{
+.tit{
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1em; 
+  text-align: center;
 }
+
 
